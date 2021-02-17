@@ -45,3 +45,5 @@ interface ActionSheetViewInterface extends React.FC<ActionSheetViewProps> {
   Header: React.FC<HeaderActionSheetProps>;
   Separator: React.FC<SeparatorProps>;
 }
+
+export const ActionSheetView: ActionSheetViewInterface;
