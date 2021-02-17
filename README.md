@@ -21,7 +21,7 @@ npm install @nghinv/react-native-action-sheet
 
 * Peer dependencies 
 	- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
-	- [@nghinv/react-native-icons](https://github.com/Nghi-NV/react-native-icons)
+	- [@nghinv/react-native-icons](https://github.com/nghinv-software/react-native-icons)
 
 # How to use
 
