@@ -3,6 +3,7 @@
  * Copyright (c) 2021 nghinv@lumi.biz
  */
 
+import React from 'react';
 import { ButtonActionSheetProps } from "./Button";
 import { BottomButtonActionSheetProps } from "./BottomButton";
 import { HeaderActionSheetProps } from "./Header";
