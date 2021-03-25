@@ -14,6 +14,7 @@ export interface ButtonActionSheetProps {
   leftIconName?: String;
   leftIconColor?: String;
   leftIconType: IconType;
+  leftIconSize: Number;
   renderRight?: () => void;
   testIDButton?: String;
   accessibilityLabelButton?: String;
