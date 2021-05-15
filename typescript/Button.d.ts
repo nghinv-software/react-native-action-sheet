@@ -23,4 +23,5 @@ export interface ButtonActionSheetProps {
   accessibilityLabelTitle?: String;
   titleStyle?: TextStyle;
   iconCheckStyle?: ViewStyle;
+  iconCheckSize?: Number;
 }
