@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-action-sheet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A custom action sheet component",
   "main": "lib/index.js",
   "scripts": {
@@ -37,6 +37,8 @@
   },
   "devDependencies": {},
   "publishConfig": {
+    "cache": "~/.npm",
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   }
 }
