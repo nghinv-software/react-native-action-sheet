@@ -3,21 +3,24 @@
  * Copyright (c) 2021 nghinv@lumi.biz
  */
 
+import { TextStyle, ViewStyle } from 'react-native';
 import { IconType } from '@nghinv/react-native-icons';
 
 export interface ButtonActionSheetProps {
   title: String;
   onPress?: () => void;
   checked: Boolean;
+  titleCenter: Boolean;
   titleColor?: String;
   iconCheckColor?: String;
   leftIconName?: String;
   leftIconColor?: String;
   leftIconType: IconType;
-  leftIconSize: Number;
   renderRight?: () => void;
   testIDButton?: String;
   accessibilityLabelButton?: String;
   testIDTitle?: String;
   accessibilityLabelTitle?: String;
+  titleStyle?: TextStyle;
+  iconCheckStyle?: ViewStyle;
 }

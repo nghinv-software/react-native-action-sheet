@@ -3,7 +3,6 @@
  * Copyright (c) 2021 nghinv@lumi.biz
  */
 
-import React from 'react';
 import { ButtonActionSheetProps } from "./Button";
 import { BottomButtonActionSheetProps } from "./BottomButton";
 import { HeaderActionSheetProps } from "./Header";
@@ -11,6 +10,14 @@ import { SeparatorProps } from "./Separator";
 
 type ButtonActionSheetType = {
   autoDismiss?: Boolean;
+}
+
+export interface OverlayProps {
+  progress: Animated.SharedValue<Number>;
+  onPress?: () => void;
+  backgroundColor?: String;
+  overlayOpacity?: Number;
+  showStatusBar?: Boolean;
 }
 
 type OptionsActionSheet = Array<ButtonActionSheetProps | ButtonActionSheetType>
@@ -38,6 +45,7 @@ export interface ActionSheetViewProps {
   testIDActionSheet?: String;
   accessibilityLabelActionSheet?: String;
   showStatusBar?: Boolean;
+  overlayProps?: OverlayProps;
 }
 
 interface ActionSheetViewInterface extends React.FC<ActionSheetViewProps> {
