@@ -7,7 +7,7 @@ import { ViewStyle, TextStyle } from 'react-native';
 
 export interface BottomButtonActionSheetProps {
   style?: ViewStyle;
-  title: String;
+  title?: String;
   titleColor?: String;
   borderRadius?: Number;
   backgroundColor?: String;

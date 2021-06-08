@@ -3,6 +3,7 @@
  * Copyright (c) 2021 nghinv@lumi.biz
  */
 
+import Animated from 'react-native-reanimated';
 import { ButtonActionSheetProps } from "./Button";
 import { BottomButtonActionSheetProps } from "./BottomButton";
 import { HeaderActionSheetProps } from "./Header";
@@ -13,7 +14,7 @@ type ButtonActionSheetType = {
 }
 
 export interface OverlayProps {
-  progress: Animated.SharedValue<Number>;
+  progress?: Animated.SharedValue<Number>;
   onPress?: () => void;
   backgroundColor?: String;
   overlayOpacity?: Number;
@@ -26,17 +27,17 @@ export interface ActionSheetViewProps {
   title?: String;
   message?: String;
   bottomTitle?: String;
-  options: OptionsActionSheet;
+  options?: OptionsActionSheet;
   renderContent?: React.FC;
   renderBackground?: React.FC;
   borderRadius?: Number;
   width?: Number | String;
-  nativeModal: Boolean;
+  nativeModal?: Boolean;
   backgroundColor?: String;
   separatorColor?: String;
   animationType?: 'spring' | 'timing';
-  springAnimationConfig: Object;
-  timingAnimationConfig: Object;
+  springAnimationConfig?: Object;
+  timingAnimationConfig?: Object;
   onHide?: () => void;
   zIndex?: Number | null;
   headerProps?: HeaderActionSheetProps;
