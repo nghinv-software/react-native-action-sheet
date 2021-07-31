@@ -28,6 +28,10 @@ yarn add @nghinv/react-native-action-sheet
 npm install @nghinv/react-native-action-sheet
 ```
 
+```sh
+yarn add react-native-gesture-handler react-native-reanimated react-native-safe-area-context @nghinv/react-native-icons
+```
+
 * Peer dependencies 
 	- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
 	- [@nghinv/react-native-icons](https://github.com/nghinv-software/react-native-icons)
@@ -101,6 +105,11 @@ const styles = StyleSheet.create({
   }
 });
 ```
+
+---
+## Credits
+
+- [@Nghi-NV](https://github.com/Nghi-NV)
 
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-action-sheet.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-action-sheet
