@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-action-sheet",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A custom action sheet component",
   "main": "lib/index.js",
   "scripts": {
@@ -33,9 +33,12 @@
     "react-native-gesture-handler": "*",
     "react-native-reanimated": ">=2.0.0-rc.0",
     "react-native-safe-area-context": "^3.1.9",
-    "@nghinv/react-native-icons": "^1.0.0"
+    "@nghinv/react-native-icons": "^1.0.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-reanimated": "2.1.0"
+  },
   "publishConfig": {
     "access": "public"
   }

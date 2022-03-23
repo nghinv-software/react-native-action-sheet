@@ -24,4 +24,5 @@ export interface ButtonActionSheetProps {
   titleStyle?: TextStyle;
   iconCheckStyle?: ViewStyle;
   iconCheckSize?: Number;
+  leftIconComponent?: React.ReactNode;
 }
